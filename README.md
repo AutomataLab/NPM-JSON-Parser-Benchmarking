@@ -17,19 +17,13 @@ node benchmark.js
 node bench.js
 ```
 
-Benchmark.js
-```
-Benchmarking is done using benchmarkify.js for smaller datasets.
+Benchmark.js: Benchmarking is done using benchmarkify.js for smaller datasets.
 
-```
 Refer: https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 
 
-Bench.js
-```
-Benchmarking is done using console.time() API for larger datasets.
+Bench.js: Benchmarking is done using console.time() API for larger datasets.
 
-```
 Refer: https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 
 
