@@ -2,12 +2,13 @@
 
 Benchmarking Node packages - JsonSki Vs simDjson vs Javascript for JSON files.
 
-To run locally-
-Download datasets from [here](https://drive.google.com/drive/folders/185SH188MJmmm-QTd14_8gq5QD-gyouNW?usp=share_link)
+To run locally:
 
-Add it to the datasets folder
+1. Download datasets from [here](https://drive.google.com/drive/folders/185SH188MJmmm-QTd14_8gq5QD-gyouNW?usp=share_link)
 
-Run the following commands to immitate the results.
+2. Add the downloaded files to the datasets folder
+
+3. Run the following commands to immitate the results.
 
 Note: Results may vary relatively depending up on the hardware. However, relative results are expected to remain same.
 ```
