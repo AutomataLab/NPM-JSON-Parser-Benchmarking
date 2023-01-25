@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <canvas id="myChart" style="width:100%;max-width:6000px"></canvas>
+<script>
+    var xValues = [];
+var yValues = [];
+var barColors = ["red", "green","blue","orange","brown"];
+var simdjson = [];
+var jsonski = [];
+var javascript = [];
+
+window.onload = function() {
+    $.getJSON('https://raw.githubusercontent.com/gandharva26/test-native-addons/npm-lib/results.json', function(data) {
+    //add the url where you store the JSON results
+    addData(data)
+    var ctx = document.getElementById("myChart").getContext("2d");
+
+var data = {
+  labels: ["472 Bytes", "24Kb", "177 Kb", "561 Kb"],
+  datasets: [{
+    label: "JsonSki",
+    backgroundColor: "blue",
+    data: jsonski
+  }, {
+    label: "simdJson",
+    backgroundColor: "red",
+    data: simdjson
+  }, {
+    label: "Javascript",
+    backgroundColor: "green",
+    data: javascript
+  }
+]
+};
+
+var myBarChart = new Chart(ctx, {
+  type: 'bar',
+  data: data,
+  options: {
+    barValueSpacing: 20,
+    scales: {
+      yAxes: [{
+        ticks: {
+          min: 0,
+          stepSize: 0.001
+        }
+      }]
+    }
+  }
+});
+
+
+
+});
+
+
+
+
+function addData(data) {
+   for(var i =0; i < data.length;i ++){
+	for (var j = 0; j < data[i].length; j++) {
+        console.log(data[i][j]['name']);
+        console.log(data[i][j]['stat']['avg']);
+		if(data[i][j]['name'] == "JsonSki"){
+            jsonski.push( data[i][j]['stat']['avg']);
+        }
+        if(data[i][j]['name'] == "simDjson"){
+            simdjson.push( data[i][j]['stat']['avg']);
+        }
+        if(data[i][j]['name'] == "Javascript"){
+            javascript.push( data[i][j]['stat']['avg']);
+        }
+			
+    }
+}
+		};
+       
+	}
+    
+
+
+
+
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
