@@ -1,4 +1,5 @@
-# benchmarking-jsonski
+# NPM-JSON-Parser-Benchmarking
+
 Benchmarking Node packages - JsonSki Vs simDjson vs Javascript for JSON files.
 
 To run locally-
