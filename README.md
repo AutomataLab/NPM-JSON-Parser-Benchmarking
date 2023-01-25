@@ -1,8 +1,14 @@
 # benchmarking-jsonski
-Benchmarking Node packages - JsonSki Vs simDjson vs Javascript for JSON files
+Benchmarking Node packages - JsonSki Vs simDjson vs Javascript for JSON files.
 
 To run locally-
-Download datasets from here - https://drive.google.com/drive/folders/185SH188MJmmm-QTd14_8gq5QD-gyouNW?usp=share_link and add it to the datasets folder
+Download datasets from here - https://drive.google.com/drive/folders/185SH188MJmmm-QTd14_8gq5QD-gyouNW?usp=share_link
+
+Add it to the datasets folder
+
+Run the following commands to immitate the results.
+
+Note: Results may vary relatively depending up on the hardware. However, relative results are expected to remain same.
 ```
 npm install
 node benchmark.js 
