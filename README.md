@@ -7,17 +7,24 @@ Download datasets from here - https://drive.google.com/drive/folders/185SH188MJm
 npm install
 node benchmark.js 
 node bench.js
+node query.js
 ```
 
-Benchmark.js
+benchmark.js
 ```
 Benchmarking is done using benchmarkify.js for smaller datasets.
 Refer - https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 ```
 
-Bench.js
+bench.js
 ```
 Benchmarking is done using console.time() API for larger datasets.
+Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
+```
+
+nestedQueries.js
+```
+Benchmarking is done using console.time() API for larger datasets and complex nested queries.
 Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 ```
  
