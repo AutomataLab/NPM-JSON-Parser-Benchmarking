@@ -14,23 +14,23 @@ Note: Results may vary relatively depending up on the hardware. However, relativ
 ```
 npm install
 node benchmark.js 
-node bench.js
-node query.js
+node small_json_benchmark.js
+node large_json_benchmark.js
 ```
 
-benchmark.js
+small_json_benchmark.js
 ```
 Benchmarking is done using benchmarkify.js for smaller datasets.
 Refer - https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 ```
 
-bench.js
+large_json_benchmark.js
 ```
 Benchmarking is done using console.time() API for larger datasets.
 Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 ```
 
-nestedQueries.js
+nested_json_benchmark.js
 ```
 Benchmarking is done using console.time() API for larger datasets and complex nested queries.
 Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
