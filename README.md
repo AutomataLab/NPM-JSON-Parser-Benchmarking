@@ -38,7 +38,7 @@ Benchmarking is done using console.time() API for larger datasets and complex ne
  
 ### Results:
 
-### Machine Configuration
+#### Machine Configuration
 
 - Processor: 2.6 GHz 6 - Core Intel Core I7
 
