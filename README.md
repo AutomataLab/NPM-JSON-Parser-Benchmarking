@@ -44,8 +44,10 @@ Benchmarking is done using console.time() API for larger datasets and complex ne
 
 - Memory : 16 GB 2667 MHz DDR4
 
-#### Execution time in milliseconds using console.time() API
+#### Execution Results:
+
+- Execution time in milliseconds using console.time() API
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/55717003/208541162-791e6ff4-31bf-4353-9dae-06e57ab76d91.png">
 
-#### Execution time in milliseconds using benchmarkify() API
+- Execution time in milliseconds using benchmarkify() API
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/55717003/208541722-f4e3a358-8150-42ff-843d-38f02e98c8e9.png">
