@@ -21,8 +21,8 @@ node large_json_benchmark.js
 small_json_benchmark.js
 ```
 Benchmarking is done using benchmarkify.js for smaller datasets.
-Refer - https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 ```
+- Read More: https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 
 large_json_benchmark.js
 ```
