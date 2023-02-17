@@ -36,7 +36,7 @@ Benchmarking is done using console.time() API for larger datasets and complex ne
 ```
 - Read More: https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
  
-### Results:
+### Performance
 
 #### Machine Configuration
 
