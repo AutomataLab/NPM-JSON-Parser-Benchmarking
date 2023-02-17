@@ -1,6 +1,6 @@
 # NPM-JSON-Parser-Benchmarking
 
-Benchmarking Node packages - JsonSki Vs simDjson vs Javascript for JSON files.
+Benchmarking Node packages - JSONSki Vs simdjson vs Javascript for JSON files.
 
 To run locally:
 
@@ -13,7 +13,7 @@ To run locally:
 Note: Results may vary relatively depending up on the hardware. However, relative results are expected to remain same.
 ```
 npm install
-node benchmark.js 
+node nested_json_benchmark.js 
 node small_json_benchmark.js
 node large_json_benchmark.js
 ```
