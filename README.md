@@ -27,14 +27,14 @@ Refer - https://www.npmjs.com/package/benchmarkify to add your own benchmarks
 large_json_benchmark.js
 ```
 Benchmarking is done using console.time() API for larger datasets.
-Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 ```
+- Read More: https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 
 nested_json_benchmark.js
 ```
 Benchmarking is done using console.time() API for larger datasets and complex nested queries.
-Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
 ```
+- Read More: https://developer.mozilla.org/en-US/docs/Web/API/console/time to add your own benchmarks
  
 ### Results:
 
