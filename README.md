@@ -10,7 +10,7 @@ To run locally:
 
 3. Run the following commands to immitate the results.
 
-Note: Results may vary relatively depending up on the hardware. However, relative results are expected to remain same.
+Note: Results may vary depending on the hardware. However, relative results are expected to remain same.
 ```
 npm install
 node nested_json_benchmark.js 
@@ -37,6 +37,13 @@ Refer - https://developer.mozilla.org/en-US/docs/Web/API/console/time to add you
 ```
  
 ### Results:
+
+### Machine Configuration
+
+- Processor: 2.6 GHz 6 - Core Intel Core I7
+
+- Memory : 16 GB 2667 MHz DDR4
+
 #### Execution time in milliseconds using console.time() API
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/55717003/208541162-791e6ff4-31bf-4353-9dae-06e57ab76d91.png">
 
