@@ -1,6 +1,6 @@
 # NPM-JSON-Parser-Benchmarking
 
-Benchmarking Node packages - JSONSki Vs simdjson vs Javascript for JSON files.
+Benchmarking Node.js packages - JSONSki Vs simdjson vs Javascript for JSON files.
 
 ## Quick Start
 
